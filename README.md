@@ -6,6 +6,10 @@ Set of Node CLI scripts for downloading s3 files, doing string replaces, and reu
 ### Prerequisites
 You must have your AWS keys stored locally to use this. See [aws config files](https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html) for more information.
 
+You must have node and npm.
+
+Run `yarn install` or `npm install` to install the dependency (aws-sdk)
+
 ### Scripts
 #### getFiles.js
 Run: `node getFiles.js path/to/file/with/filenames path/to/folder/to/upload/them/to bucketName`
