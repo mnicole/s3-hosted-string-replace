@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "aws-sdk": "^2.280.1"
+    },
+    "name": "s3-hosted-string-replace",
+    "description":
+        "Set of Node CLI scripts for downloading s3 files, doing string replaces, and reuploading them. Uses the aws-sdk package.",
+    "version": "1.0.0",
+    "scripts": {
+        "prettier": "prettier \"*.{js,json}\" --write && git status"
+    },
+    "author": "Michele Larson",
+    "license": "MIT"
+}
