@@ -21,13 +21,13 @@ The upload folders must already exist. Your files.txt should list each file name
 #### replaceStrings.js:
 Run: `node replaceStrings.js path/to/folder/where/files/exist`
 
-Example: `node replaceStrings.js /Users/you/Desktop/stuff`
+Example: `node replaceStrings.js /Users/you/stuff`
 
 The folder must already exist. You should edit the replaceStrings.js file with the regex of what you want to replace.
 
 #### uploadFiles.js
-Run: `node replaceStrings.js path/to/folder/where/files/exist bucketName`
+Run: `node uploadFiles.js path/to/folder/where/files/exist bucketName`
 
-Example: `node uploadFiles.js /Users/you/Desktop/stuff my-bucket-name`
+Example: `node uploadFiles.js /Users/you/stuff my-bucket-name`
 
 The folder must already exist. This example uses Content-Type: text/html. You can change this in uploadFiles.js.
